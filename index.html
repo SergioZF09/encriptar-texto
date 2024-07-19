@@ -21,21 +21,26 @@
                 <p class="presentacion__seccion__parrafo">Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="presentacion__seccion__botones">
-                <button class="presentacion__seccion__botones__encriptar" type="button">Encriptar</button>
-                <button class="presentacion__seccion__botones__desencriptar" type="button">Desencriptar</button>
+                <button onclick="encriptar();" class="presentacion__seccion__botones__encriptar">Encriptar</button>
+                <button onclick="desencriptar();" class="presentacion__seccion__botones__desencriptar" type="button">Desencriptar</button>
             </div>
         </section>
-        <aside class="presentacion__apartado">
+        <aside class="presentacion__apartado" id="apartado">
             <textarea class="presentacion__apartado__areatexto" name="textoNuevo" id="textoNuevo" disabled></textarea>
-            <img src="./assets/Muneco.png" alt="Muñeco con lupa">
-            <div class="presentacion__apartado__parrafos">
-                <p class="presentacion__apartado__parrafo1">Ningún mensaje fue encontrado</p>
-                <p class="presentacion__apartado__parrafo2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <div class="presentacion__apartado__imagenParrafo" id="imagenParrafos">
+                <img src="./assets/Muneco.png" alt="Muñeco con lupa">
+                <div class="presentacion__apartado__parrafos">
+                    <p class="presentacion__apartado__parrafo1">Ningún mensaje fue encontrado</p>
+                    <p class="presentacion__apartado__parrafo2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div class="presentacion__seccion__boton">
+                <button class="presentacion__apartado__boton__copiar" id="copiar" hidden>Copiar</button>
             </div>
         </aside>
     </main>
     <footer class="footer">
-        <p class="footer__parrafo">Desarrollado por <strong>Sergio Zuñiga Fraga</strong></p>
+        <p class="footer__parrafo">Desarrollado por <strong>Sergio Zuñiga Fraga</strong> en 2024</p>
         <div class="footer__enlaces">
             <a class="footer__enlaces__link" href="https://www.linkedin.com/in/sergio-zu%C3%B1iga-fraga-4656162a4/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -49,6 +54,7 @@
             </a>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
