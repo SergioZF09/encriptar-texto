@@ -31,6 +31,11 @@ También hay un botón Copiar para copiar y guardar en el portapapeles la frase 
 
 `"gaitober" => "gato"`
 
-**Estado del proyecto: En construcción.**
+**Estado del proyecto: Completado.**
+
+**Estado de responsividad:**
+- **Desktop:** Listo
+- **Tablet:** En desarrollo
+- **Celular:** En desarrollo
 
 #AluraLatam #OracleNextEducation
